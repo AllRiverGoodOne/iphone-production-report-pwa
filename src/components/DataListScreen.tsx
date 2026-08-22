@@ -37,7 +37,7 @@ export function DataListScreen({ recipientEmail, onOpenSettings }: DataListScree
     const file = createCsvFile(unprocessed)
     const shareData: ShareData = {
       title: '生産数報告CSV',
-      text: `送信先: ${recipientEmail}`,
+      text: '生産実績報告',
       files: [file],
     }
 
